@@ -1,0 +1,13 @@
+What are the differences between int, long, long long, and short? 
+They all support integers of varying size: 
+short: minimum size of 16 bits
+int: minimum size 16 bits
+long: minimum size of 32 bits
+long long: minimum size of 64 bits
+
+Unsigned and a signed type? 
+The integral types may be either signed or unsigned. A signed typed represents negative or positive numbers (including 0); an unsigned type represents only values greater than or equal to 0.
+
+Float and a double? 
+Both represent floating point types, typically with float represented in one word (32 bits) and doubles in two words (64 bits). The float and double types typically yield about 7 and 16 significant digits, respectively. Typically, use double for floating-point computations; float usually does not have enough precision, and the cost of double-precision calculations versus single-precision is negligible. 
+

@@ -1,0 +1,11 @@
+To calculate a mortgate payment, what types would you use for the rate, principal, and payment? Explain why you selected each type. 
+
+rate ==> unsigned float
+- easily represents a percentage
+- the rate will always be >= 0%
+- could be represented using an unsigned float, but will be used for computations and the additional overhead will be negligible
+
+principal ==> signed double
+payment ==> signed double
+- supports larger amounts, which one might typically see in mortgage calculations
+
