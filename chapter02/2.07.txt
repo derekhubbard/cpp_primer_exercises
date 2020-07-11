@@ -1,0 +1,13 @@
+What values do these literals represent? What type does each have? 
+
+a.) "Who goes with F\145rgus?\012"
+==> value "Who goes with Fergus?" followed by newline, type is a character string literal
+
+b.) 3.14e1L
+==> 3.14 x 10^1, `long double` floating-point literal
+
+c.) 1024f
+==> 1024.0, `float` floating-point literal
+
+d.) 3.14L
+==> 3.14, `long double` floating-point literal
