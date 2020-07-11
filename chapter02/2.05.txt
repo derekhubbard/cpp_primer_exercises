@@ -1,0 +1,26 @@
+Determine the type of each of the following literals. Explain the differences among literals in each of the four examples: 
+
+a) 'a', L'a', "a", L"a"
+'a' ==> character literal, type is char
+L'a' ==> wide character literal, type is wchar_t
+"a" ==> string literal 
+L"a" ==> wide string literal
+
+b) 10, 10u, 10L, 10uL, 013, 0xC
+10 ==> integer literal, type is int
+10u ==> unsigned integral literal, type is unsigned int
+10L ==> integral literal, type is long int
+10uL ==> unsigned integral literal, type is unsigned long int
+013 ==> octal integral literal, type is int
+0xC ==> hexadecimal integral literal, type is int
+
+c) 3.14, 3.14f, 3.14L
+3.14 ==> floating-point literal, type is double 
+3.14f ==> floating-point literal, type is float
+3.14L ==> floating-point literal, type is long double
+
+d) 10, 10u, 10., 10e-2
+10 ==> integral literal, type is int
+10u ==> unsigned integral literal, type is unsigned int
+10. ==> floating-point literal, type is double
+10e-2 ==> floating-point literal, type is double
