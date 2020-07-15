@@ -1,0 +1,10 @@
+Key differences between pointers and references
+
+pointers
+- objects, so when we assign a value to a pointer, we give that pointer a new value
+- the value of this object is the address of another object, a null value, or the object immediately after an object
+
+references
+- not an object, so once the reference is defined there is no way to make that reference refer to a different object
+- when using a reference, we always get the object to which the reference is bound
+- just an alias to another object
